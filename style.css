@@ -24,7 +24,7 @@ header .logo span{
 
 nav {
     display: flex;
-    gap: 15px;
+    gap:55px;
     
 }
 
@@ -34,45 +34,21 @@ nav a {
     font-size: 0.9em;
 }
 
-.profile {
-    color: #048b5e;
+.language-btn {
+    background-color: #ff7f7f;
+    color: #fff;
     border: none;
     padding: 8px 12px;
     cursor: pointer;
     border-radius: 5px;
 }
 
-.search {
-    color: #048b5e;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.store {
-    color: #048b5e;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-    border-radius: 5px;
-}
 
 .anuncios {
     text-align: left;
-    padding: 50px;
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLgt2AnQwdg68vYRb0K01VjcvbrWI0b0xMzw&s) no-repeat center center;
+    padding: 300px 50px 0px 70px;
+    background: url(img/sk_fondo.jpg) no-repeat center center;
     background-size: cover;
-}
-
-.anuncios h1 {
-    font-size: 3em;
-    font-weight: bold;
-}
-
-.anuncios p {
-    font-size: 1.2em;
-    color: #666;
 }
 
 .products {
@@ -100,6 +76,13 @@ h2 {
     margin: 20px 0;
 }
 
+section a{
+    background-color: #ff7f7f;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
 .asistente-button, .club-button {
     background-color: #ff7f7f;
     color: #fff;
@@ -116,3 +99,4 @@ h2 {
     justify-content: right;
     float: right;
 }
+
