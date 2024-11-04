@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #048b5e;
+}
+
+header .logo span{
+    color: #ff7f7f;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #048b5e;
+    font-size: 0.9em;
+}
+
+.profile {
+    color: #048b5e;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search {
+    color: #048b5e;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.store {
+    color: #048b5e;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.anuncios {
+    text-align: left;
+    padding: 50px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLgt2AnQwdg68vYRb0K01VjcvbrWI0b0xMzw&s) no-repeat center center;
+    background-size: cover;
+}
+
+.anuncios h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.anuncios p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.products img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.tagline {
+    font-size: 0.8em;
+    color: #999;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 20px 0;
+}
+
+.asistente-button, .club-button {
+    background-color: #ff7f7f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px 10px 10px 0px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.asistente-button {
+    background-color: #ff9999;
+    justify-content: right;
+    float: right;
+}
